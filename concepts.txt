@@ -1,0 +1,6 @@
+** tools **
+1. gpa calculator (class name, class grade, class credits as input, GPA as output)
+2. grade calculator for class (categories name, categories weight, categories grade as input, grade as output)
+3. grade needed on final for inputted grade (final grade wanted weight of final exam taken as input, grade needed on final needed to get wanted grade as output)
+
+MAKE TABS FIRST
