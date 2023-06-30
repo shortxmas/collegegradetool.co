@@ -1,31 +1,21 @@
 #headname
 {
-  
   width: 100px;
   height: 50px;
   text-decoration: none;
   margin-left: 3%;
   font-size: .8cm;
   color: #528AAE
-  
-  
 }
-
 #headside
 {
-  
   margin-left: .1%;
   font-size: .5cm;
   color: black;
   font-weight: 600;
 }
-
-
-
 #head
 {
-
- 
   height: 100px;
   font-family: 'Montserrat', sans-serif;
 }

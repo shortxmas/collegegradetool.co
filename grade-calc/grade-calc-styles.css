@@ -1,0 +1,67 @@
+.gctitle
+{
+  text-align: center;
+}
+.inputs {
+  border-radius: 5px;
+  font-size: .5cm;
+  color: black;
+  margin-bottom: 2%;
+  /* margin-left: 2%; */
+  
+  background-color: mintcream;
+  border: 0;
+  outline: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  
+  
+  
+}
+
+.tables
+{
+  margin-right: auto;
+  margin-left: auto;
+  
+  
+  
+}
+/* table, th, td {
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #87ceeb;
+} */
+.submits
+{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #528AAE;
+  
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  font-size: .5cm;
+  
+
+  
+  
+  
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+

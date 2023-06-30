@@ -5,8 +5,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <!-- <link rel="stylesheet" href="w3.css"> -->
+  <link rel="stylesheet" href="tabs/tabsstyles.css">
+  <link rel="stylesheet" href="head/headstyles.css">
+  <link rel="stylesheet" href="grade-calc/grade-calc-styles.css">
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>temp</title>
@@ -41,12 +43,514 @@
 
 
 
-<body>
+<body id="body">
+
+  <div class="tabs-container">
+    <ul class="tab-buttons">
+      <li class="tab-button active">Grade Calculator</li>
+      <li class="tab-button">GPA Calculator</li>
+      <li class="tab-button">Final Exam Calculator</li>
+    </ul>
+    <div class="tab-content-wrapper">
+      <div class="tab-content">
+
+
+        <div style="display: block;" id="gc">
+          
+          <h2 class="gctitle"> Grade Calculator</h2>
+          <p class="gctitle"> Calculate your grade in a class with different weighted categories.</p>
+          <br>
+          <h3 class="gctitle"> Weighted</h3>
+
+
+          <table class="tables" style="width: 75%;">
+            <tr>
+              <th style="width: 50%;">Category name (optional)</th>
+              <th style="width: 25%;">Grade (%)</th>
+              <th style="width: 25%;">Weight</th>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+          </table>
+          <br>
+          <button type="submit" class="submits"> Submit</button>
+          
+
+          
+          <br>
+          <br>
+          <br>
+          
+          
+          
+          
+
+
+         
+
+        
+        
+        
+        
+        </div>
+
+
+        <div style="display: block;" id="gc">
+          
+          <h2 class="gctitle"> GPA Calculator</h2>
+          <p class="gctitle"> Calculate your semester or cumulative GPA. </p>
+          <br>
+          <h3 class="gctitle"> Semester GPA</h3>
+
+
+          <table class="tables" style="width: 75%;">
+            <tr>
+              <th style="width: 50%;">Class name (optional)</th>
+              <th style="width: 25%;">Grade (Letter)</th>
+              <th style="width: 25%;">Credits worth</th>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <select class="inputs">
+                  <option ></option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >A-</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >B-</option>
+                  <option >C+</option>
+                  <option >C</option>
+                  <option >C-</option>
+                  <option >D+</option>
+                  <option >D</option>
+                  <option >D-</option>
+                  <option >F</option>
+                </select>
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <select class="inputs">
+                  <option ></option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >A-</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >B-</option>
+                  <option >C+</option>
+                  <option >C</option>
+                  <option >C-</option>
+                  <option >D+</option>
+                  <option >D</option>
+                  <option >D-</option>
+                  <option >F</option>
+                </select>
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <select class="inputs">
+                  <option ></option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >A-</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >B-</option>
+                  <option >C+</option>
+                  <option >C</option>
+                  <option >C-</option>
+                  <option >D+</option>
+                  <option >D</option>
+                  <option >D-</option>
+                  <option >F</option>
+                </select>
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <select class="inputs">
+                  <option ></option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >A-</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >B-</option>
+                  <option >C+</option>
+                  <option >C</option>
+                  <option >C-</option>
+                  <option >D+</option>
+                  <option >D</option>
+                  <option >D-</option>
+                  <option >F</option>
+                </select>
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <select class="inputs">
+                  <option ></option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >A-</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >B-</option>
+                  <option >C+</option>
+                  <option >C</option>
+                  <option >C-</option>
+                  <option >D+</option>
+                  <option >D</option>
+                  <option >D-</option>
+                  <option >F</option>
+                </select>
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <select class="inputs">
+                  <option ></option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >A-</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >B-</option>
+                  <option >C+</option>
+                  <option >C</option>
+                  <option >C-</option>
+                  <option >D+</option>
+                  <option >D</option>
+                  <option >D-</option>
+                  <option >F</option>
+                </select>
+
+              </td>
+              <td>
+                <input type="number" class="inputs">
+
+              </td>
+            </tr>
+          </table>
+          <br>
+          <button type="submit" class="submits"> Submit</button>
+          
+
+          
+          <br>
+          <br>
+          <h3 class="gctitle"> Cumulative GPA</h3>
+
+          <table class="tables" style="width: 50%;">
+            <tr>
+              <th style="width: 13%;"></th>
+              <th style="width: 50%;">GPA (Decimal number)</th>
+              
+            </tr>
+            <tr>
+              <th>
+                Semester 1
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 2
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 3
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 4
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 5
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 6
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 7
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 8
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 9
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Semester 10
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+
+
+          </table>
+          <br>
+          <button type="submit" class="submits"> Submit</button>
+          
+          
+          <br>
+          <br>
+          <br>
+
+
+         
+
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        <div>
+          <h2 class="gctitle"> Final Exam Calculator</h2>
+          <p class="gctitle"> Calculate what you need on your final exam to get your desired grade for the class.</p>
+          <table class="tables" style="width: 50%;">
+            
+            <tr>
+              <th style="width: 52%;">
+                Current grade (%)
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Final grade wanted (%)
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Final exam weight (%)
+              </th>
+              <td>
+                <input type="number" class="inputs">
+              </td>
+            </tr>
+            
+
+
+          </table>
+          <br>
+          <button type="submit" class="submits"> Submit</button>
+          
+          
+          
+          <br>
+          <br>
+          <br>
+        
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+
+
+
+
+  <script src="tabs/tabs.js"></script>
+</body>
 
 
   
-</body>
-
 
 
 
