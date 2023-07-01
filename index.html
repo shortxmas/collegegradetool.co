@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles/tabs-content-styles.css">
   <link rel="stylesheet" href="styles/header-styles.css">
   
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>temp</title>
@@ -55,7 +56,7 @@
       <div class="tab-content">
 
 
-        <div style="display: block;" id="gc">
+        <div style="display: block;" id="gc" class="hide">
           
           <h2 class="gctitle"> Grade Calculator</h2>
           <p class="gctitle"> Calculate your grade in a class with different weighted categories.</p>
@@ -75,25 +76,11 @@
 
               </td>
               <td>
-                <input type="number" class="inputs">
+                <input id="g1" type="number" class="inputs">
 
               </td>
               <td>
-                <input type="number" class="inputs">
-
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="text" class="inputs">
-
-              </td>
-              <td>
-                <input type="number" class="inputs">
-
-              </td>
-              <td>
-                <input type="number" class="inputs">
+                <input id="w1" type="number" class="inputs">
 
               </td>
             </tr>
@@ -103,25 +90,11 @@
 
               </td>
               <td>
-                <input type="number" class="inputs">
+                <input id="g2" type="number" class="inputs">
 
               </td>
               <td>
-                <input type="number" class="inputs">
-
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="text" class="inputs">
-
-              </td>
-              <td>
-                <input type="number" class="inputs">
-
-              </td>
-              <td>
-                <input type="number" class="inputs">
+                <input id="w2" type="number" class="inputs">
 
               </td>
             </tr>
@@ -131,11 +104,11 @@
 
               </td>
               <td>
-                <input type="number" class="inputs">
+                <input id="g3" type="number" class="inputs">
 
               </td>
               <td>
-                <input type="number" class="inputs">
+                <input id="w3" type="number" class="inputs">
 
               </td>
             </tr>
@@ -145,23 +118,61 @@
 
               </td>
               <td>
-                <input type="number" class="inputs">
+                <input id="g4" type="number" class="inputs">
 
               </td>
               <td>
-                <input type="number" class="inputs">
+                <input id="w4" type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input id="g5" type="number" class="inputs">
+
+              </td>
+              <td>
+                <input id="w5" type="number" class="inputs">
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" class="inputs">
+
+              </td>
+              <td>
+                <input id="g6" type="number" class="inputs">
+
+              </td>
+              <td>
+                <input id="w6" type="number" class="inputs">
 
               </td>
             </tr>
           </table>
           <br>
-          <button type="submit" class="submits"> Submit</button>
+          <button id="gcsubmit" type="submit" class="submits"> Submit</button>
+          <br>
+          <br>
+          <table class="tables" style="width: 50%;">
+            <tr class="results inputs">
+              <th style="width: 50%; margin-left: 2%;">Grade</th>
+              <td id="gcpercentgrade" style="width: 25%;"> **</th>
+              <td id="gclettergrade" style="width: 25%;"> **</th>
+            </tr>
+          </table>
           
+
 
           
           <br>
           <br>
-          <br>
+          
           
           
           
@@ -173,11 +184,11 @@
         
         
         
-        
+          <script src="scripts/grade-calculator.js"></script>
         </div>
 
 
-        <div >
+        <div class="hide">
           
           <h2 class="gctitle"> GPA Calculator</h2>
           <p class="gctitle"> Calculate your semester or cumulative GPA. </p>
@@ -483,7 +494,7 @@
         
         
         
-        <div>
+        <div class="hide">
           <h2 class="gctitle"> Final Exam Calculator</h2>
           <p class="gctitle"> Calculate what you need on your final exam to get your desired grade for the class.</p>
           <table class="tables" style="width: 50%;">

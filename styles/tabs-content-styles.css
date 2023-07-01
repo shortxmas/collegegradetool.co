@@ -16,6 +16,7 @@
   display: flex;
   width: 95%;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   
   
   
@@ -50,12 +51,23 @@ th, td {
   height: 30px;
   background-color: white;
   font-size: .5cm;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   
 
   
   
   
   cursor: pointer;
+}
+
+.results
+{
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: lightgray;
+  font-size: .5cm;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
 }
 
 

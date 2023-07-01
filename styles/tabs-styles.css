@@ -41,7 +41,7 @@
   margin-bottom: 12%;
 }
 
-.tab-content div 
+.tab-content .hide 
 {
   display: none;
 }
@@ -49,6 +49,7 @@
 .tab-button.active {
   background-color: #87ceeb;
 }
+
 
 
 
