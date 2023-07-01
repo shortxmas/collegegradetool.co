@@ -20,7 +20,7 @@ document.getElementById("gcsubmit").onclick = function()
 
   
  
-  document.getElementById("gcpercentgrade").innerHTML = percentgrade +"%";
+  document.getElementById("gcpercentgrade").innerHTML = (percentgrade).toFixed(2) +"%";
   document.getElementById("gclettergrade").innerHTML = getLetterGrade(percentgrade)
   
 }

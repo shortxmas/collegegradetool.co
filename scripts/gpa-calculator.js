@@ -23,7 +23,7 @@ document.getElementById("semgpasubmit").onclick = function()
   {
     top =top+grades[j];
   }
-  document.getElementById("gpasemresult").innerHTML=(top/cw)
+  document.getElementById("gpasemresult").innerHTML=(top/cw).toFixed(2)
 
 }
 
@@ -31,5 +31,6 @@ document.getElementById("semgpasubmit").onclick = function()
 //cum calculator
 document.getElementById("cumgpasubmit").onclick = function()
 {
+
 
 }
