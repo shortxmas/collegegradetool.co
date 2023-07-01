@@ -23,6 +23,7 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   font-weight: 500;
   color: black;
+  text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
 }
 
 .tab-content-wrapper {
@@ -39,6 +40,7 @@
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin-bottom: 12%;
+  text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
 }
 
 .tab-content .hide 

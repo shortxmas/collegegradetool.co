@@ -1,3 +1,4 @@
+
 .gctitle
 {
   text-align: center;
@@ -17,6 +18,7 @@
   width: 95%;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
   
   
   
@@ -52,6 +54,8 @@ th, td {
   background-color: white;
   font-size: .5cm;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
+  
   
 
   

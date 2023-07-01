@@ -1,11 +1,13 @@
 #headname
 {
+  text-shadow: rgba(182, 179, 179, 0.521) 1.95px 1.95px 2.6px;
   width: 100px;
   height: 50px;
   text-decoration: none;
   margin-left: 3%;
   font-size: .8cm;
   color: #528AAE
+  
 }
 #headside
 {
