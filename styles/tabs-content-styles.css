@@ -2,6 +2,10 @@
 .gctitle
 {
   text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .inputs {
   border-radius: 5px;

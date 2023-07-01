@@ -66,7 +66,7 @@
           <h2 class="gctitle"> Grade Calculator</h2>
           <p class="gctitle"> Calculate your grade in a class with different weighted categories.</p>
           <br>
-          <h3 class="gctitle"> Weighted</h3>
+          
 
 
           <table class="tables" style="width: 75%;">
@@ -177,6 +177,23 @@
           
           <br>
           <br>
+          <h3 class="gctitle"> How is this calculated?</h3>
+          <p class="gctitle" > 
+            Your calculated grade is the sum of all grades multiplied by their respective weights. 
+
+          </p>
+          <p class="gctitle" > 
+            For example, if 
+            my current grade in my homework category is 70% with its weight being 40% of my grade, and my current
+            grade in my tests category is 65% with its weight being 60% of my grade, the grade I have in the class
+            would be (Homework category grade * homework category weight) + (test category grade * test category weight)
+            or (70/100 * 40/100) + (65/100 * 60/100) which would equal to 0.67. Multiply 0.67 by 100 to get to the grade percentage form which
+            is 67.00%
+
+          </p>
+          
+          <br>
+          <br>
           
           
           
@@ -196,9 +213,8 @@
         <div class="hide">
           
           <h2 class="gctitle"> GPA Calculator</h2>
-          <p class="gctitle"> Calculate your semester GPA. </p>
+          <p class="gctitle"> Calculate your GPA for a semester. </p>
           <br>
-          <h3 class="gctitle"> Semester GPA</h3>
 
 
           <table class="tables" style="width: 75%;">
@@ -394,11 +410,30 @@
               
             </tr>
           </table>
+          <br>
+          <br>
+          <h3 class="gctitle"> How is this calculated?</h3>
+          <p class="gctitle" > 
+            Your calculated GPA is the sum of all letter grades multipled by their respective credit worth divided by the total amount
+            of credits worth. Each letter grade corresponds to a certain decimal value which is used to calculate your GPA. 
+            A = 4.0, B = 3.0, C = 2.0, D = 1.0, F = 0. If you get a minus grade (ex. B-), take 0.3 away from your corresponding 
+            letter grade (B- = 2.7). If you get a plus grade (ex. B+), add 0.3 to your corresponding 
+            letter grade (B+ = 3.3). A+ and A will both equal 4.0 and F = 0. 
+
+          </p>
+          <p class="gctitle" > 
+            For example, if I have a B+ in my calculus class with it being worth
+            4 credits and a C- in my Astronomy class with it being worth 3 credits, my GPA would be calculated by (Calculus letter grade value
+            * calculus credits worth) + (Astronomy letter grade value * astronomy credits worth) all divided by (Calculus credits worth + astronomy 
+            credits worth) or ((3.3 * 4) + (1.7 * 3)) / (3+4) which is 2.61.
+
+          </p>
+          <br>
           
 
           
           <br>
-          <br>
+          
           
 
           <script src="scripts/gpa-calculator.js"></script>
@@ -409,6 +444,7 @@
         <div class="hide">
           <h2 class="gctitle"> Final Exam Calculator</h2>
           <p class="gctitle"> Calculate what you need on your final exam to get your desired grade for the class.</p>
+          <br>
           <table class="tables" style="width: 50%;">
             
             <tr>
@@ -450,10 +486,23 @@
               <td id="fecletter" style="width: 17.5%;"> --</th>
             </tr>
           </table>
+          <br>
+          <br>
+          <h3 class="gctitle"> How is this calculated?</h3>
+          <p class="gctitle" > 
+            The grade needed on your final exam to get your desired grade is calculated by your desired grade minus the remainder weight of
+            your current grade multiplied by your current grade all divided by the weight of your final.
+
+          </p>
+          <p class="gctitle" > 
+            For example, if I currently have a 70% in my class with my desired final grade being 80% and my final exam weighing 50% I would
+            do (80/100 - (100-50)/100 * 70/100) / (50/100) which equals 0.9. Multiply 0.9 by 100 to get to the percentage grade form which is 90%.
+          </p>
+          <br>
           
           
           <br>
-          <br>
+          
 
           <script src="scripts/final-exam-calculator.js"></script>
           
