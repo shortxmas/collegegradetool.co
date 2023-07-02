@@ -65,6 +65,7 @@ document.getElementById("semgpareset").onclick = function()
     
     
   }
+  document.getElementById("gpasemresult").innerHTML="--"
   
 }
 
@@ -80,6 +81,8 @@ document.getElementById("cumgpareset").onclick = function()
     
     
   }
+  document.getElementById("gpacumresult").innerHTML="--"
+
   
   
   

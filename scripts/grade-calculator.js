@@ -32,6 +32,11 @@ document.getElementById("gcreset").onclick = function()
     document.getElementById("g"+i).value=""
     document.getElementById("w"+i).value=""
     document.getElementById("gccg"+i).value=""
+    document.getElementById("gcpercentgrade").innerHTML="--"
+    document.getElementById("gclettergrade").innerHTML="--"
+
+
+    
     
   } 
     

@@ -10,6 +10,8 @@ document.getElementById("fecreset").onclick = function()
   document.getElementById("fgw").value = ""
   document.getElementById("few").value=""
   document.getElementById("cg").value=""
+  document.getElementById("fecpercentages").innerHTML="--"
+  document.getElementById("fecletter").innerHTML="--"
   
 }
 
