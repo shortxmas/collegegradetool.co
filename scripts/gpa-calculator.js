@@ -53,3 +53,37 @@ document.getElementById("cumgpasubmit").onclick = function()
 
 
 }
+
+document.getElementById("semgpareset").onclick = function()
+{
+  for( let i=1;i<7;i++)
+  {
+    document.getElementById("lg"+i).value ="-1"
+    document.getElementById("cw"+i).value =""
+    document.getElementById("gpacn"+i).value =""
+    
+    
+    
+  }
+  
+}
+
+document.getElementById("cumgpareset").onclick = function()
+{
+
+ 
+  for( let i=1;i<11;i++)
+  {
+    document.getElementById("gpasem"+i).value =""
+    
+    
+    
+    
+  }
+  
+  
+  
+
+
+
+}

@@ -55,16 +55,29 @@ th, td {
   font-family: 'Montserrat', sans-serif;
   width: 100px;
   height: 30px;
-  background-color: white;
+  background-color: rgb(192, 214, 173);
   font-size: .5cm;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
-  
-  
+  cursor: pointer;
+}
 
+.resets
+{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #528AAE;
   
-  
-  
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(214, 173, 173);
+  font-size: .5cm;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
   cursor: pointer;
 }
 

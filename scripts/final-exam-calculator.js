@@ -5,6 +5,14 @@ document.getElementById("fecsubmit").onclick = function()
   document.getElementById("fecletter").innerHTML = getLetterGrade2(((top/(document.getElementById("few").value/100)) *100).toFixed(2))
 }
 
+document.getElementById("fecreset").onclick = function()
+{
+  document.getElementById("fgw").value = ""
+  document.getElementById("few").value=""
+  document.getElementById("cg").value=""
+  
+}
+
 let getLetterGrade2 = function(pg)
 { 
   if(pg>=90)

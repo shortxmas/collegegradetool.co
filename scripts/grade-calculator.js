@@ -25,6 +25,22 @@ document.getElementById("gcsubmit").onclick = function()
   
 }
 
+document.getElementById("gcreset").onclick = function()
+{
+  for( let i=1;i<7;i++)
+  {
+    document.getElementById("g"+i).value=""
+    document.getElementById("w"+i).value=""
+    document.getElementById("gccg"+i).value=""
+    
+  } 
+    
+   
+  
+  
+  
+}
+
 let getLetterGrade = function(pg)
 { 
   if(pg>=90)
