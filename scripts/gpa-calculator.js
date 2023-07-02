@@ -46,7 +46,7 @@ document.getElementById("cumgpasubmit").onclick = function()
     
     
   }
-  document.getElementById("gpacumresult").innerHTML = totalGPA/bottom
+  document.getElementById("gpacumresult").innerHTML = (totalGPA/bottom).toFixed(2)
   
   
 
