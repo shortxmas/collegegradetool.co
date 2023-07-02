@@ -32,5 +32,24 @@ document.getElementById("semgpasubmit").onclick = function()
 document.getElementById("cumgpasubmit").onclick = function()
 {
 
+  let totalGPA = 0;
+  let bottom =0;
+  for( let i=1;i<11;i++)
+  {
+    
+    if(document.getElementById("gpasem" + i).value != "")
+    {
+      totalGPA = totalGPA + parseFloat(document.getElementById("gpasem" + i).value)
+      bottom++;
+    }
+    
+    
+    
+  }
+  document.getElementById("gpacumresult").innerHTML = totalGPA/bottom
+  
+  
+
+
 
 }
