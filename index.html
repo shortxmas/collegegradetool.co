@@ -65,9 +65,9 @@
 
   <div class="tabs-container">
     <ul class="tab-buttons">
-      <li class="tab-button active">Grade Calculator</li>
-      <li class="tab-button">GPA Calculator</li>
-      <li class="tab-button">Final Exam Calculator</li>
+      <li class="tab-button active">Grade <text class="calchide">Calculator</text></li>
+      <li class="tab-button">GPA <text class="calchide">Calculator</text></li>
+      <li class="tab-button">Final Exam <text class="calchide">Calculator</text></li>
     </ul>
     <div class="tab-content-wrapper">
       <div class="tab-content">
@@ -81,11 +81,11 @@
           
 
 
-          <table class="tables" style="width: 75%;">
+          <table id="gcinputs" class="tables" >
             <tr>
-              <th style="width: 50%;">Category name (optional)</th>
-              <th style="width: 25%;">Grade (%)</th>
-              <th style="width: 25%;">Weight</th>
+              <th id="gcname">Category name <text class="optional">(optional)</text> </th>
+              <th id="gcgrade" >Grade (%)</th>
+              <th id="gcweight" >Weight</th>
             </tr>
             <tr>
               <td>
@@ -179,13 +179,13 @@
                 <button id="gcsubmit" type="submit" class="submits"> Submit</button>
               </td>
               <td>
-                <button id="gcreset" type="reset" class="resets"> Reset</button>
+                <button id="gcreset" type="submit" class="resets"> Reset</button>
               </td>
             </tr>
           </table>
           <br>
           <br>
-          <table class="tables" style="width: 50%;">
+          <table id="gcresults" class="tables">
             <tr class="results inputs">
               <th style="width: 50%; margin-left: 2%;">Grade</th>
               <td id="gcpercentgrade" style="width: 25%;"> --</th>
@@ -240,11 +240,11 @@
           <h3 class="gctitle"> Semester GPA</h3>
 
 
-          <table class="tables" style="width: 75%;">
+          <table id="gpasemtable" class="tables" >
             <tr>
-              <th style="width: 50%;">Class name (optional)</th>
-              <th style="width: 25%;">Grade (Letter)</th>
-              <th style="width: 25%;">Credits worth</th>
+              <th id="gpasemname" >Class name (optional)</th>
+              <th id="gpasemg" >Grade (Letter)</th>
+              <th id="gpasemcw" >Credits worth</th>
             </tr>
             <tr>
               <td>
@@ -435,7 +435,7 @@
           </table>
           <br>
           <br>
-          <table class="tables" style="width: 45%;">
+          <table id="gpasemresults" class="tables" >
             <tr class="results inputs">
               <th style="width: 75%; margin-left: 2%;">Semster GPA</th>
               <td id="gpasemresult" style="width: 25%;"> --</th>
@@ -450,7 +450,7 @@
 
           <h3 class="gctitle"> Cumulative GPA</h3>
 
-          <table class="tables" style="width: 50%;">
+          <table id="gpacumtable" class="tables" >
             <tr>
               <th style="width: 13%;"></th>
               <th style="width: 50%;">GPA (Decimal number)</th>
@@ -552,7 +552,7 @@
           </table>
           <br>
           <br>
-          <table class="tables" style="width: 45%;">
+          <table id="gpacumresults" class="tables">
             <tr class="results inputs">
               <th style="width: 75%; margin-left: 2%;">Cumulative GPA</th>
               <td id="gpacumresult" style="width: 25%;"> --</th>
@@ -605,7 +605,7 @@
           <h2 class="gctitle"> Final Exam Calculator</h2>
           <p class="gctitle"> Calculate what you need on your final exam to get your desired grade for the class.</p>
           <br>
-          <table class="tables" style="width: 50%;">
+          <table id="fecinputs" class="tables" >
             
             <tr>
               <th style="width: 52%;">
@@ -649,9 +649,9 @@
           
           <br>
           <br>
-          <table class="tables" style="width: 75%;">
+          <table id="fecresults" class="tables">
             <tr class="results inputs">
-              <th style="width: 65%; margin-left: 2%;">Final Exam Grade Needed</th>
+              <th id="fectest"><tex id="fehide">Final Exam </tex>Grade Needed</th>
               <td id="fecpercentages" style="width: 17.5%;"> --</th>
               <td id="fecletter" style="width: 17.5%;"> --</th>
             </tr>
@@ -700,6 +700,14 @@
   
   
   
+
+
+
+
+
+
+
+  
   
 
 
@@ -707,6 +715,16 @@
 
 
   <script src="scripts/tabs.js"></script>
+
+
+
+
+
+
+
+
+
+
 </body>
 
 

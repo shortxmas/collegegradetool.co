@@ -91,10 +91,205 @@ th, td {
   
 }
 
+#gcresults
+{
+  width: 50%;
+}
+
+#gcinputs
+{
+  width: 75%;
+}
+#gcname
+{
+  width: 15%;
+}
+#gcweight
+{
+  width: 5%;
+}
+#gcgrade
+{
+  width: 12%;
+}
+#gpasemtable
+{
+  width: 75%
+}
+#gpasemname
+{
+  width: 40%;
+}
+#gpasemcw
+{
+  width: 25%;
+}
+#gpasemg
+{
+  width: 25%;
+}
+#gpasemresults
+{
+  width: 45%;
+}
+
+#gpacumtable
+{
+  width: 50%;
+}
+#gpacumresults
+{
+  width: 45%;
+}
+#fecinputs
+{
+  width: 50%;
+}
+#fecresults
+{
+  width: 75%;
+}
+#fectest
+{
+  width: 65%; margin-left: 2%;
+}
 
 
 
+@media screen and (max-width:600px)
+{
+
+  
+  .results
+  {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: .5cm;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tables
+  {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #gcresults
+  {
+    width: 100%;
+    
+  }
+  #gcinputs
+  {
+  width: 87%;
+  } 
+  #gcname
+  {
+    width: 10%;
+  }
+  #gcweight
+  {
+    width: 1%;
+  }
+  #gcgrade
+  {
+    width: 15%;
+  }
+  
+  
+  #gpasemtable
+  {
+    width: 87%;
+  }
+  #gpasemname
+  {
+    width: 60%;
+  }
+  #gpasemcw
+  {
+    width: 5%;
+  }
+  #gpasemg
+  {
+    width: 25%;
+  }
+  #gpasemresults
+  {
+    width: 85%;
+  }
+  #gpacumtable
+  {
+    width: 87%;
+    font-size: 85%;
+    
+  }
+  #gpacumresults
+  {
+    width: 100%;
+  }
+  #fecinputs
+  {
+    width: 90%;
+  }
+  #fecresults
+  {
+    width: 100%;
+    
+  }
+  #fectest
+  {
+    width: 60%; 
+    margin-left: 2%;
+  }
+  #fehide
+  {
+    display: none;
+  }
+  #fecletter
+  {
+    display: none;
+  }
+  .calchide
+  {
+    display: none;
+  }
+  
+  
+
+  .inputs {
+    border-radius: 5px;
+    font-size: .5cm;
+    color: black;
+    margin-bottom: 2%;
+    /* margin-left: 2%; */
+    
+    background-color: mintcream;
+    border: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 80%;
+    justify-content: left;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
+    
+    
+    
+  }
+  
+  .optional
+  {
+    display: none;
+  }
+  tr
+  {
+    font-size: 90%;
+  }
+  
 
 
 
-
+}
