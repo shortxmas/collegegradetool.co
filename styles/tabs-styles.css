@@ -37,9 +37,9 @@
   background-color: #87ceeb;
   border-radius: 15px;
   height: 50%;
-  width: 700px;
+  width: 730px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  margin-bottom: 12%;
+  margin-bottom: 6%;
   text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
 }
 
@@ -51,6 +51,9 @@
 .tab-button.active {
   background-color: #87ceeb;
 }
+
+
+
 
 
 @media screen and (max-width:600px)

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles/header-styles.css">
   <link rel="stylesheet" href="styles/about-styles.css">
   <link rel="stylesheet" href="styles/form-styles.css">
+  <link rel="stylesheet" href="styles/contact-styles.css">
   
   
  
@@ -685,15 +686,55 @@
     </div>
   </div>
   
-  <!-- <div id="form">
-    <h2> Have an idea to improve this page?</h2>
-    <br>
-    <form action="https://formsubmit.co/your@email.com" method="POST">
-      <input type="text" name="name" required>
-      <input type="email" name="email" required>
-      <button type="submit">Send</button>
-    </form>
-  </div> -->
+  
+  <div id="form-box">
+    
+    <div id="topelem">
+      <h2> Have an idea to improve this site?</h2>
+      <p> (or want to contact this sites creator?)</p>
+    </div>
+    
+    <div id="form">
+      <form action="https://formsubmit.co/leightonmiguelweb@gmail.com" method="POST">
+        <!-- <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <button type="submit">Send</button> -->
+        <br>
+        <table class="contact-tables">
+          <tr>
+            <th> Name</th>
+            <td> <input class="contact-form-inputs" id="contact-form-name" type="text" name="name" required maxlength="50"> </td>
+            
+          </tr>
+          <tr>
+            <th> Message</th>
+            <td> <textarea class="contact-form-inputs" id="contact-form-message" type="text" name="message" required maxlength="150"></textarea> </td>
+            
+          </tr>
+          
+         
+          
+        </table>
+        <table class="contact-tables" id="contact-sr">
+          <tr>
+            <td><button id="contact-form-submit" class="contact-form-inputs" type="submit">Send</button></td>
+            <!-- <td><button id="contact-form-submit" class="contact-form-inputs" type="submit">Reset</button></td> -->
+            
+          </tr>
+        </table>
+        
+
+        
+        <br>
+      </form>
+    </div>
+    <p id="botelem"> This form uses <a href="https://formsubmit.co">formsubmit.co</a> for form submissions.</p>
+    
+
+    
+
+    
+  </div>
   
   
 

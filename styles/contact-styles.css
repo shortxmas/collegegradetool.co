@@ -1,0 +1,144 @@
+
+#form-box
+{
+  text-align: center; /* Center align the tabs */
+  /* background-color: #87ceeb; */
+  
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+ 
+  
+  text-shadow: rgba(138, 136, 136, 0.521) 1.95px 1.95px 2.6px;
+}
+#form
+{
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.contact-form-inputs
+{
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  font-size: 15px;
+  
+}
+
+#contact-form-name
+{
+  
+  width: 250px;
+}
+#contact-form-message
+{
+  width: 252px;
+  resize: none;
+  height: 70px;
+  
+}
+#contact-form-submit
+{
+  width: 80px;
+  font-size: 17px;
+  background-color: rgb(192, 214, 173);
+  color: black;
+  outline: auto;
+  cursor: pointer;
+}
+.contact-tables
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width:600px)
+{
+  #form-box
+  {
+    text-align: center; /* Center align the tabs */
+    /* background-color: #87ceeb; */
+    
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    text-shadow: rgba(138, 136, 136, 0.521) 1px 1px 1.3px;
+    
+
+  }
+
+  #form
+  {
+    
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    size: 10%;
+    
+  }
+
+  .contact-form-inputs
+  {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    
+    
+  }
+
+  #contact-form-name
+  {
+    
+    width: 90%;
+  }
+  #contact-form-message
+  {
+    width: 252px;
+    resize: none;
+    width: 90%;
+    
+  }
+  #contact-form-submit
+  {
+    width: 80px;
+    font-size: 17px;
+    color: white;
+    outline: gray;
+    background-color: rgb(192, 214, 173);
+    border-radius: 5px;
+  }
+  .contact-tables
+  {
+    display: flex;
+    justify-content: center;
+    
+  }
+  #topelem
+  {
+    font-size: 65%;
+  }
+  #botelem
+  {
+    font-size: 70%;
+  }
+
+  
+}
